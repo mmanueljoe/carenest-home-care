@@ -1,0 +1,120 @@
+/* General Section Styling */
+.packages-section {
+  background-color: #fff; /* Light background for contrast */
+  padding: 70px 0;
+  text-align: center;
+}
+
+.packages-section h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.packages-intro {
+  font-size: 1.0rem;
+  color: #666;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+/* Package Cards Container */
+.packages-container {
+  display: flex;
+  justify-content: center; /* Center cards horizontally */
+  flex-wrap: wrap; /* Allow cards to wrap */
+  gap: 20px; /* Space between cards */
+  max-width: 1200px; /* Limit container width */
+  margin: 0 auto; /* Center container itself */
+}
+
+/* Package Cards */
+.package-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-basis: calc(33.333% - 20px); /* 3 cards per row minus spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin: 10px 0;
+}
+
+.package-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.package-card h3 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: #28a745;
+  margin: 10px 0;
+}
+
+.description {
+  flex-grow: 1;
+  font-size: 1rem;
+  color: #555;
+  margin: 10px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .package-card {
+    flex-basis: calc(50% - 20px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 768px) {
+  .package-card {
+    flex-basis: calc(50% - 20px); /* 2 cards per row */
+  }
+}
+
+@media (max-width: 576px) {
+  .packages-section h2 {
+    font-size: 2rem; /* Smaller h2 size */
+  }
+
+  .packages-container {
+    justify-content: center; /* Ensure wrapped cards are centered */
+  }
+
+  .package-card {
+    flex-basis: 100%; /* Full width card on smaller screens */
+  }
+
+  .package-card h3 {
+    font-size: 1.5rem;
+  }
+
+  .price {
+    font-size: 1.2rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+/* Card Specific Styles */
+.beginner-card {
+  background-color: #e7f7ff; /* Slightly blue background */
+}
+
+.standard-card {
+  background-color: #fef7e7; /* Slightly yellow background */
+}
+
+.premium-card {
+  background-color: #f9e7f7; /* Slightly pink background */
+}
