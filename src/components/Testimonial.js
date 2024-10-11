@@ -6,7 +6,7 @@ const Testimonial = () => {
   return (
     <section id="testimonials" className="testimonial-section py">
       <div className="container text-center">
-        <h2 className="section-title">What Our Clients Say</h2>
+        <h2 className="section-title-testimonial">What Our Clients Say</h2>
         <p></p>
         <Carousel interval={5000} pause="hover" className="testimonial-carousel mt-4">
           <Carousel.Item>

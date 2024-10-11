@@ -5,7 +5,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    padding: 50px 0; /* Padding for mobile */
+    padding: 150px 0; /* Padding for mobile */
     z-index: 1;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     animation: backgroundChange 20s infinite ease-in-out;
@@ -26,7 +26,7 @@
   
   /* Hero Content */
   .hero-content {
-    width: 80%;
+    width: 90%;
     text-align: center;
     margin: 0 auto;
     color: white;
@@ -34,30 +34,31 @@
   }
   
   .hero-section h1 {
-    font-size: 1.5rem; /* Mobile font size */
+    font-size: 1.7rem; /* Mobile font size */
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-weight: 700;
   }
   
   .hero-section .highlight {
     color: #164ce2; /* Bright color for the highlighted word */
-    font-size: 2rem; /* Highlighted word size for mobile */
+    font-size: 1.7rem; /* Highlighted word size for mobile */
     display: inline-block;
     animation: colorChange 10s infinite; /* Animated color change */
   }
   
   .hero-section p {
-    font-size: 1rem; /* Mobile font size */
+    font-size: 14px; /* Mobile font size */
     margin-bottom: 20px; /* Reduced margin */
     color: #f0f0f0;
   }
   
   .hero-btn {
-    padding: 10px 20px;
-    font-size: 1rem;
+    font-family: poppins;
+    padding: 10px 10px;
+    font-size: 0.80rem;
     background-color: #164ce2;
-    border-radius: 5px; /* Fixed typo */
+    border-radius: 40px; /* Fixed typo */
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.3s ease;
   }
@@ -103,22 +104,22 @@
   }
   
   /* Media Queries for Responsive Design */
-  @media (min-width: 480px) {
+  @media (min-width: 425px) {
     .hero-section {
       padding: 200px 0; /* Increased padding for small tablets */
     }
   
-    .hero-section h1 {
-      font-size: 2rem; /* Increase font size for small tablets */
+    .hero-section h1 ,.hero-section .highlight{
+      font-size: 1.7rem; /* Increase font size for small tablets */
     }
   
     .hero-section p {
-      font-size: 1.0rem; /* Increase paragraph font size */
+      font-size: 14px; /* Increase paragraph font size */
     }
   
     .hero-btn {
-      padding: 15px 30px;
-      font-size: 1rem;
+      padding: 10px 10px;
+      font-size: 12px;
       font-family: poppins;
     }
   }

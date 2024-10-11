@@ -55,7 +55,7 @@ const ServicesSection = () => {
     <section id="services" className="services-section">
       <p>Our Services</p>
       <h2 className="section-title">Types Of Services</h2>
-      <p>
+      <p className="service-p2">
         Carenest provides personalized home nursing care, ensuring quality
         support for your health and well-being in the comfort of your home.
       </p>

@@ -1,13 +1,13 @@
 /* FAQ Section Mobile First */
 .faq-section {
-    padding: 2rem 1rem;
+    padding: 80px 20px;
     background-color: #f8f9fa;
   }
   
   .faq-title {
     text-align: center;
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: bold;
     margin-bottom: 1.5rem;
     color: #333;
   }
@@ -34,9 +34,10 @@
   .faq-question {
     display: flex;
     justify-content: space-between;
-    font-size: 1.2rem;
+    font-size: 14px;
     color: #444;
     font-weight: 500;
+    font-family: poppins,sans-serif;
   }
   
   .faq-icon {
@@ -51,7 +52,7 @@
   
   .faq-answer {
     margin-top: 0.8rem;
-    font-size: 1rem;
+    font-size: 14px;
     color: #666;
     line-height: 1.5;
   }
@@ -59,19 +60,19 @@
   /* Tablet and Up */
   @media (min-width: 768px) {
     .faq-title {
-      font-size: 2.2rem;
+      font-size: 2.0rem;
     }
   
     .faq-item {
-      padding: 1.2rem;
+      padding: 1.0rem;
     }
   
     .faq-question {
-      font-size: 1.4rem;
+      font-size: 1.2rem;
     }
   
     .faq-answer {
-      font-size: 1.1rem;
+      font-size: 1.0rem;
     }
   }
   

@@ -12,11 +12,11 @@ const About = () => {
           </Col>
           <Col md={6} className="about-description">
             {/* <p className='about-p1'>About Us</p> */}
-            <h2 className='about-h1'>Your Home, Your Health Are Our Priority</h2>
-            <p className='about-p2'>
+            <h2>Your Home, Your Health Are Our Priority</h2>
+            <p>
               We are a team of experienced professionals dedicated to providing quality care services tailored to meet the unique needs of each client, including assistance with daily living activities, medication reminders, and specialized nursing care.
             </p>
-            <Button variant="primary center" href="#book-appointment" className="mt">
+            <Button variant="primary" href="#book-appointment" className="btn">
               Book an Appointment
             </Button>
           </Col>

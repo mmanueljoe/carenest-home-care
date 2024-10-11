@@ -1,7 +1,7 @@
 /* Global Styles - Mobile First Approach */
 .about-section {
     background-color: #f9f9f9; /* Light gray background */
-    padding: 50px 20px; /* Padding for the section */
+    padding: 70px 20px; /* Padding for the section */
     border-radius: 40px; /* Rounded corners */
 }
 
@@ -14,22 +14,20 @@
     margin: 0; /* Remove default margin */
 }
 
-.about-description h4 {
-    font-size: 1.2rem; /* Adjusted size for mobile */
-    color: #333; /* Dark color for visibility */
-}
 
 .about-description h2 {
-    font-size: 2.0rem; /* Adjusted size for mobile */
+    font-size: 30px; /* Adjusted size for mobile */
     margin-top: 0; /* Space above title */
     color: #333; /* Dark color for visibility */
     font-weight: bold;
+    text-align: center;
 }
 
 .about-description p {
-    font-size: 0.9rem; /* Base font size for mobile */
+    font-size: 14px; /* Base font size for mobile */
     color: #555; /* Gray color for description */
     margin-bottom: 20px; /* Space below paragraph */
+    text-align: center;
 }
 
 .about-image-container {
@@ -43,7 +41,7 @@
     transition: transform 0.3s ease; /* Smooth scaling on hover */
     width: 100%; /* Full width on mobile */
     max-width: 300px; /* Maximum width for the image */
-    margin: 0 auto; /* Center the image */
+    margin: 5px auto; /* Center the image */
 }
 
 .about-image:hover {
@@ -53,7 +51,7 @@
 /* Media Queries for Different Screen Sizes */
 
 /* Small Devices (min-width: 426px and max-width: 768px) */
-@media (min-width: 426px) and (max-width: 768px) {
+@media (min-width: 425px) and (max-width: 767px) {
     .about-section {
         padding: 70px 20px; /* Increased padding */
     }
@@ -63,18 +61,21 @@
     }
 
     .about-description h1 {
-        font-size: 1.7rem; /* Larger for better visibility */
+        font-size: 30px; /* Larger for better visibility */
         margin-bottom: 10px;
     }
 
     .about-description p {
-        font-size: 1rem; /* Slightly larger font */
-        text-align: left; /* Center text */
+        font-size: 14px; /* Slightly larger font */
+        text-align: center; /* Center text */
     }
      
     .btn {
-        margin: 20px auto; /* Center button */
+        width: 50%;
+        margin: 10px auto; /* Center button */
         display: block; /* Ensure it behaves as a block element */
+        background-color: #164ce2;
+        font-size: 14px;
     }
 
     .about-image {
@@ -84,13 +85,18 @@
 }
 
 /* Medium Devices (min-width: 769px and max-width: 1024px) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .about-description {
         text-align: left; /* Left-aligned for better readability on larger screens */
     }
 
-    .about-description h1 {
+    .about-description h2 {
         font-size: 2rem; /* Standard desktop font size */
+        text-align: left;
+    }
+    
+    .about-description p{
+        text-align: left;
     }
 
     .about-image {

@@ -8,7 +8,7 @@ const Packages = () => {
   };
 
   return (
-    <section id="packages" className="packages-section py-5">
+    <section id="packages" className="packages-section py">
       <Container>
         <h2>Our Packages</h2>
         <p className="packages-intro">Choose the best package that suits your needs.</p>
@@ -17,21 +17,21 @@ const Packages = () => {
             <h3>Basic Care</h3>
             <p className="price">GHS 200</p>
             <p className="description">Includes basic nursing care and daily assistance.</p>
-            <Button variant="primary" onClick={handleFormClick}>Select Package</Button>
+            <Button variant="primary" className="btn" onClick={handleFormClick}>Select Package</Button>
           </div>
 
           <div className="package-card standard-card">
             <h3>Standard Care</h3>
             <p className="price">GHS 400</p>
             <p className="description">Includes all Basic Care services plus medication management.</p>
-            <Button variant="primary" onClick={handleFormClick}>Select Package</Button>
+            <Button variant="primary" className="btn" onClick={handleFormClick}>Select Package</Button>
           </div>
 
           <div className="package-card premium-card">
             <h3>Premium Care</h3>
             <p className="price">GHS 600</p>
             <p className="description">Comprehensive care with 24/7 nursing support and specialized services.</p>
-            <Button variant="primary" onClick={handleFormClick}>Select Package</Button>
+            <Button variant="primary" className="btn" onClick={handleFormClick}>Select Package</Button>
           </div>
         </div>
       </Container>

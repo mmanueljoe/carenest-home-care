@@ -7,7 +7,7 @@ const Header = () => {
       <div className="hero-content">
         <h1>Experience <span className="highlight">Compassionate Care</span> at Carenest</h1>
         <p>Your health, your home, our priority</p>
-        <a href="#services" className="btn btn-primary mt-3 hero-btn">Explore Our Services</a>
+        <a href="#services" className="btn btn-primary mt hero-btn">Explore Our Services</a>
       </div>
     </header>
   );
