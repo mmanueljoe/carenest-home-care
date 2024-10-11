@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/carenest-home-care/static/css/main.2c5f5067.css",
-    "main.js": "/carenest-home-care/static/js/main.283f23e6.js",
+    "main.css": "/carenest-home-care/static/css/main.0d778f93.css",
+    "main.js": "/carenest-home-care/static/js/main.fb6354ee.js",
     "static/js/453.1f3a158f.chunk.js": "/carenest-home-care/static/js/453.1f3a158f.chunk.js",
     "static/media/banner2.jpg": "/carenest-home-care/static/media/banner2.dfbe380fb731331e41b5.jpg",
     "static/media/banner1.jpg": "/carenest-home-care/static/media/banner1.5fb8556007a570ad4e27.jpg",
     "static/media/banner3.jpg": "/carenest-home-care/static/media/banner3.323d52523358295d0060.jpg",
     "index.html": "/carenest-home-care/index.html",
-    "main.2c5f5067.css.map": "/carenest-home-care/static/css/main.2c5f5067.css.map",
-    "main.283f23e6.js.map": "/carenest-home-care/static/js/main.283f23e6.js.map",
+    "main.0d778f93.css.map": "/carenest-home-care/static/css/main.0d778f93.css.map",
+    "main.fb6354ee.js.map": "/carenest-home-care/static/js/main.fb6354ee.js.map",
     "453.1f3a158f.chunk.js.map": "/carenest-home-care/static/js/453.1f3a158f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5f5067.css",
-    "static/js/main.283f23e6.js"
+    "static/css/main.0d778f93.css",
+    "static/js/main.fb6354ee.js"
   ]
 }
